@@ -15,12 +15,15 @@ Just like a company has departments (Sales, Engineering, Marketing) working toge
 ## Installation Guide
 Follow these steps to set up and run the project on your system
 
-### **Prerequisites**
-Install ```uv```
+### **Prerequisites - UV**
+Windows
 ```
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  # Windows
-curl -LsSf https://astral.sh/uv/install.sh | sh                                     # Linux/Mac
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  
 ```
+Linux/Mac
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh 
+```                                    
 
 ### **1. Clone the Repository**
 ```
@@ -33,9 +36,13 @@ uv sync
 ```
 
 ### **3. Activate the Virtual Environment**
+Linux/Mac
 ```
-source .venv/bin/activate  # Linux/Mac
-.venv\Scripts\activate     # Windows
+source .venv/bin/activate
+```
+windows
+```
+.venv\Scripts\activate 
 ```
 
 
